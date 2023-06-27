@@ -47,7 +47,7 @@ int main()
     }
 
 	
-	mylist2.reverse();
+	mylist2.reverse(); // REVERSION FUNCTION
 	mylist2.print();
 
 	//TO DO! Write a program that tests your list library - the code should take characters, push them onto a list, 
