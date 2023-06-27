@@ -46,6 +46,9 @@ int main()
         cout << element << " is not in list 2" << endl; // IF NOT FOUND
     }
 
+	
+	mylist2.reverse();
+	mylist2.print();
 
 	//TO DO! Write a program that tests your list library - the code should take characters, push them onto a list, 
 	//- then reverse the list to see if it is a palindrome!

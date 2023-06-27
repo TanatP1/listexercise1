@@ -98,7 +98,14 @@ bool List::search(char el)
 }
 void List::reverse()
 {
-
+	Node* tmp = head;
+	Node *prev = 0, *next = 0;
+	while(tmp != 0){
+		next = tmp -> next; //Reverse tmp node pointer
+		tmp->next = prev; //Move pointer to the next location
+		prev = tmp;
+		tmp = next;
+	}
 	// TO DO! (Function is to reverse the order of elements in the list.
 }
 void List::print()
